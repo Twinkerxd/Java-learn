@@ -1,9 +1,7 @@
-import java.util.Scanner;
-
-public class ScannerPractice {
+public class ScannerKek {
     public static void main(String[] args) {
         int sum = 0;
-        Scanner console = new Scanner(System.in);
+        java.util.Scanner console = new java.util.Scanner(System.in);
 
         for (int i = 0; i < 3; i++) {
             System.out.println("Please enter an int number: ");

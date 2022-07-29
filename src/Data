@@ -1,0 +1,3 @@
+select * from humans;
+select cats from animals;
+select dogs from animals;
