@@ -1,4 +1,4 @@
 package WildCard;
 
-public class Cat extends Dog{
+public class Cat extends Animal{
 }

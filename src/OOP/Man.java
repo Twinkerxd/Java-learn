@@ -8,6 +8,7 @@ public class Man extends Human {
 
     @Override
     void whoAreYou() {
-        System.out.println("I am a man and my name is "+name);
+        System.out.println("I am a man and my name is " + name);
     }
+
 }

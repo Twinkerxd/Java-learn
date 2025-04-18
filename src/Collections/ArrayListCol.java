@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListCol {
     public static void main(String[] args) {
@@ -11,5 +12,8 @@ public class ArrayListCol {
         }
 
         System.out.println(list);
+
+        List<String> list2 = new ArrayList<>();
+
     }
 }

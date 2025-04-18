@@ -19,7 +19,23 @@ public class Collections {
         //TODO SET
         System.out.println("-----SET------");
         Set<String> set = Set.of("1", "2", "3", "4", "5");
-        set.forEach(System.out::println);
+
+        // for each
+        for (String s : set) {
+            System.out.println(s);
+        }
+
+        // for each, stream api
+        set.stream().forEach(System.out::println);
+
+        // lyambda
+        set.stream().forEach(x-> System.out.println(x));
+
+        // iterator
+        Iterator<String> iterator = set.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
 
         //TODO HASH SET
         System.out.println("-----HASH SET------");
@@ -44,8 +60,10 @@ public class Collections {
         hashMap.put(4, "Mateusz");
         hashMap.put(5, "Hubert");
 
-//        System.out.println(hashMap);
+        System.out.println(hashMap);
 
+
+        //TODO task 1
         String word1 = "kajak";
         String word2 = "qwerty";
 

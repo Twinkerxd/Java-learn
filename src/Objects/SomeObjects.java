@@ -17,6 +17,6 @@ class Animal {
     }
 
     void sayHello() {
-        System.out.println("Hello! My name is "+name+" and my age is "+age);
+        System.out.println("Hello! My name is " + name + " and my age is " + age);
     }
 }
